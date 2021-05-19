@@ -1,0 +1,40 @@
+:root{
+      --vermelho: #E50914;
+      --preto: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* não deixar os elementos se expandirem*/
+}
+
+body{
+    background-color: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row; /*alinhou na linha*/
+    align-items: center;
+    justify-content: space-between; /* espaçamento entre elementos do container*/
+}
+
+header .logo{
+    margin-left: 10px;
+    color: var(--vermelho);
+    font-family: 'Arial Black'; 
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none; /*tira a linha do link*/
+    color: #AAA;
+    margin-right: 10px; /*dá o espaçamento nos links*/
+}
+
+header nav a:hover{
+    color: #FFF;
+}
+

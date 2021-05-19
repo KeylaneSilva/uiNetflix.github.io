@@ -43,10 +43,23 @@ header nav a:hover{
 
 /*filme principal*/
 .filme-principal{
-    background: url("img/capa-greys.jpg");
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/capa-flash.jpg") ;
     font-size: 16px;
 
     height: 400px;
     background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /*começa sempre da esquerda */
+}
+
+.filme-principal .descricao{
+    margin-bottom: 60px;
+}
+
+.filme-principal .titulo{
+    font-size: 40px;
 }
 

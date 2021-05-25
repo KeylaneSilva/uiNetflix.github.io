@@ -1,12 +1,14 @@
 :root{
       --vermelho: #E50914;
       --preto: #141414;
+      --branco: #ffffff;
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box; /* não deixar os elementos se expandirem*/
+    text-decoration: none;
 }
 
 /*elementos base*/
@@ -79,14 +81,20 @@ header nav a:hover{
 
 }
 
+.botao a{
+    color: var(--branco);
+}
+
 .botao:hover{
-    background-color: white;
+    background-color: red;
     color: var(--preto);
 }
 
 .botao i{
     margin-right: 5px;
 }
+
+
 
 /* carousel olw*/
 
@@ -99,3 +107,72 @@ header nav a:hover{
 .carousel-filmes{
     margin-top: 10px;
 }
+
+/*mais_informações*/
+
+.fundo-principal{
+    background-image: url('../img/capafundo2.jpg');
+    height: 600px;
+
+    background-size: cover; /*se enquadra*/
+}
+
+.wrapper{
+    font-size: 20px;
+    color: var(--branco);
+}
+
+.informacoes{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.titulo-informacoes{
+    margin-top: 650px;
+    
+}
+
+.elenco{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    
+    margin-left: 25%;
+    margin-top: 30px;
+
+}
+
+.titulo-informacoes{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.descricao-informacoes{
+    width: 60%;
+    margin-top: 20px;
+}
+.titulo-des{
+    text-align: center;
+}
+
+.titulo-des{
+    font-size: 30px;
+}
+
+.botao2{
+    margin-top: 50px;
+    margin-left: 45%;
+
+    width: 175px;
+    padding: 7px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+
+
+}
+

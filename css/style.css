@@ -24,6 +24,8 @@ header .container{
     flex-direction: row; /*alinhou na linha*/
     align-items: center;
     justify-content: space-between; /* espaçamento entre elementos do container*/
+
+    margin-right: 330px;
 }
 
 header .logo{
@@ -48,7 +50,7 @@ header nav a:hover{
     background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/capa-flash.jpg") ;
     font-size: 16px;
 
-    height: 400px;
+    height: 700px;
     background-size: cover;
 
     display: flex;
@@ -103,7 +105,7 @@ header nav a:hover{
 }
 
 .carousel-filmes{
-    margin-top: 10px;
+    margin-top: -40px;
 }
 
 /*mais_informações*/
@@ -171,6 +173,6 @@ header nav a:hover{
     cursor: pointer;
     transition: .3s ease all;
 
-
 }
+
 
